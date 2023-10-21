@@ -1,8 +1,4 @@
 <?php
-
-class About{
-    public function index($nama = 'Ilham', $pekerjaan = 'Mahasiswa'){
-        echo "Halo, nama saya $nama, saya adalah seorang $pekerjaan";
 class About extends Controller{
     public function index($nama = 'Ilham', $umur = 19, $pekerjaan = 'Mahasiswa'){
         $data['nama'] = $nama;
